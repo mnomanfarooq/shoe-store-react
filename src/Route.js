@@ -12,20 +12,21 @@ import Formal from './Components/Formal';
 function RouteConfig() {
     return (
         <>
-            <Routes>
                 <Header />
+                    <Routes>
+
                 
                     <Route path="/" element={<Home />} />
-                    <Route path="/about" element={<About />} />
-                    <Route path="/product" element={<Product />} />
-                    <Route path="/product/:id" element={<ProductItems />} />
-                    <Route path="/formal" element={<Formal />} />
-                    <Route path="/formal/:id" element={<FormalShoes />} />
+                        <Route path="/about" element={<About />} />
+                        <Route path="/product" element={<Product />} />
+                            <Route path="/product/:id" element={<ProductItems />} />
+                        <Route path="/formal" element={<Formal />} />
+                            <Route path="/formal/:id" element={<FormalShoes />} />
                     <Route path="*" element={() => <h2>Not Found</h2>} />
                 
-                <Footer />
-            </Routes>
-
+                </Routes>
+            <Footer />
+            
         </>
     )
 
