@@ -4,6 +4,9 @@ import { Carousel } from "react-responsive-carousel";
 import { makeStyles } from "@material-ui/core";
 import mShoes from './data/moccasins.json';
 import { Link } from 'react-router-dom';
+import Leed from './images/leedsnpm.jpg';
+import Naval from './images/navalsnpm';
+import Croze from './images/croze.jpg';
 
 const useStyles = makeStyles((theme) => ({
   img: {
@@ -28,7 +31,7 @@ function MoccasinsSlider() {
         >
 
 
-          {Object.keys(mShoes).map(keyName => {
+          {/* {Object.keys(mShoes).map(keyName => {
             const mShoe = mShoes[keyName];
             return (
               // Set link over here
@@ -48,8 +51,57 @@ function MoccasinsSlider() {
 
               </Link>)
           })
-          }
+          } */}
 
+
+              <Link 
+                className="Link"
+                to={`/moccasins/leed-snpm`}>
+
+                <div className="slider">
+                  <img
+                    src={Leed}
+                    alt="Leed SNPM"
+                    className={classes.img}
+                  />
+
+                  <p className="legend">LEED SNPM -  Rs. 4,995 </p>
+                </div>
+
+              </Link>
+
+
+              <Link 
+                className="Link"
+                to={`/moccasins/naval-snpm`}>
+
+                <div className="slider">
+                  <img
+                    src={Naval}
+                    alt="Naval SNPM"
+                    className={classes.img}
+                  />
+
+                  <p className="legend">NAVAL SNPM -  Rs. 4,995 </p>
+                </div>
+
+              </Link>
+
+              <Link 
+                className="Link"
+                to={`/moccasins/croze`}>
+
+                <div className="slider">
+                  <img
+                    src={Croze}
+                    alt="Croze"
+                    className={classes.img}
+                  />
+
+                  <p className="legend">CROZE -  Rs. 4,495 </p>
+                </div>
+
+              </Link>
 
         </Carousel>
       </ul>
