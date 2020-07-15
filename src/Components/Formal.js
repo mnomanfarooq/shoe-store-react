@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function Formal()  {
     return (
         <div className="product">
-            <h1> Product Page </h1>
+            <h1> Formal Shoes Variety </h1>
             <div className="productContainer">
 
                 {Object.keys(Shoes).map(keyName=>{

@@ -1,7 +1,7 @@
 import React from 'react';
 import './../App.css';
 import { makeStyles } from '@material-ui/core/styles';
-import Slider from './Slider'
+import MenSlider from './MenSlider'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -21,32 +21,17 @@ export function Home() {
   return (
 
     <div className={classes.root}>
-      <div className="header"><h2>Welcome to Shoes Store</h2></div>
+      <div className="header"><h2>Welcome to Men Shoes Store</h2></div>
       <div className="home">
-      <br /><br /><br /><br />
-        <div>
-          <div>
-          <Slider />
+      <br /><br />
+        <div className="center">
+          <div className="slider">
+          <MenSlider />
           </div>
-          <div>
-
-          </div>
-          <div>
-
+          <div className="slider">
+          <MenSlider />
           </div>
         </div>
-
-        {/* <Grid container spacing={2}>
-          <Grid item xs>
-            <Paper className={classes.paper}></Paper>
-          </Grid>
-          <Grid item xs>
-            <Paper className={classes.paper}>xs</Paper>
-          </Grid>
-          <Grid item xs>
-            <Paper className={classes.paper}>xs</Paper>
-          </Grid>
-        </Grid> */}
 
       </div>
     </div>

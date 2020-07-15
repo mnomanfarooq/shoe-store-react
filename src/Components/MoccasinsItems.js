@@ -1,6 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router-dom';
-import Shoes from './data/formal.json'
+import Shoes from './data/moccasins.json'
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
@@ -28,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function FormalShoes() {
+export default function MoccasinsShoes() {
   const classes = useStyles();
 
   const { id } = useParams();
@@ -41,7 +41,7 @@ export default function FormalShoes() {
     <div className="page-div">
       <br />
       
-      <h2>Formal Shoes - Product Details </h2>
+      <h2>Moccasins Shoes - Product Details </h2>
       
       <br />
       <div className={classes.root}>

@@ -1,0 +1,65 @@
+{
+    "beck": {
+      "name": "BECK",
+      "price": "Rs. 9,995",
+      "avail": "Available in stock",
+      "simg":
+        "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/Beck-Black_grande.jpg",
+      "details": "Feel the difference in comfort with our uniquely designed Technology which provides streamlined extra supportive cushioning in the foot-beds, where you need it the most, to let you be comfortable yet trendy.",
+      "fimg":
+      "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/Beck-Black_800x800.jpg"  
+    },
+
+
+    "fester": {
+      "name": "FESTER",
+      "price": "Rs. 10,995",
+      "avail": "Available in stock",
+      "simg":
+        "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/009100039-011-fester-Black_grande.jpg",
+      "details": "Feel the difference in comfort with our uniquely designed Deep Comfort® Technology which provides streamlined extra supportive cushioning in the foot-beds, where you need it the most, to let you be comfortable yet trendy.",
+      "fimg":
+      "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/009100039-011-fester-Black_800x800.jpg"  
+    },
+
+    "austin": {
+      "name": "AUSTIN",
+      "price": "Rs. 10,995",
+      "avail": "Out of Stock",
+      "simg":
+        "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/Austin-Black_grande.jpg",
+      "details": "Feel the difference in comfort with our uniquely designed Deep Comfort® Technology which provides streamlined extra supportive cushioning in the foot-beds, where you need it the most, to let you be comfortable yet trendy.",
+      "fimg":
+      "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/Austin-Black_800x800.jpg"  
+    },
+
+    "osmo-snpm": {
+        "name": "OSMO SNPM",
+        "price": "Rs. 5,495",
+        "simg":
+          "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/009100185-482-OSMOSNPM-BROWN_grande.jpg",
+        "details": "Balance your move all day with shoes designed to provide you with comfort, flexibility and casual spirit. Our Casual shoes are specifically engineered with patent technologies to provide a balanced natural motion with every step you take.",
+        "fimg":
+        "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/009100185-482-OSMOSNPM-BROWN_800x800.jpg"  
+      },
+  
+      "zorro": {
+        "name": "ZORRO",
+        "price": "Rs. 4,995",
+        "simg":
+          "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/Zorro-Black_grande.jpg",
+        "details": "Balance your move all day with shoes designed to provide you with comfort, flexibility and casual spirit. Our Casual shoes are specifically engineered with patent technologies to provide a balanced natural motion with every step you take.",
+        "fimg":
+        "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/Zorro-Black_800x800.jpg"  
+      },
+  
+      "skelf": {
+        "name": "SKELF",
+        "price": "Rs. 4,495",
+        "simg":
+          "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/Skelf-Tan_grande.jpg?v=1576827026",
+        "details": "Balance your move all day with shoes designed to provide you with comfort, flexibility and casual spirit. Our Casual shoes are specifically engineered with patent technologies to provide a balanced natural motion with every step you take.",
+        "fimg":
+        "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/Skelf-Tan_800x800.jpg?v=1576827026"  
+      }
+  }
