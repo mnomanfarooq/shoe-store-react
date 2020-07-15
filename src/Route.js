@@ -14,7 +14,7 @@ function RouteConfig() {
         <>
             <Router>
                 <Header />
-                <Switch>
+                
                     <Route exact path="/" component={Home} />
                     <Route exact path="/about" component={About} />
                     <Route exact path="/product" component={Product} />
@@ -22,7 +22,7 @@ function RouteConfig() {
                     <Route exact path="/formal" component={Formal} />
                     <Route exact path="/formal/:id" component={FormalShoes} />
                     <Route path="*" component={() => <h2>Not Found</h2>} />
-                </Switch>
+                
                 <Footer />
             </Router>
 
