@@ -1,8 +1,8 @@
 import React from 'react';
 import './../App.css';
 import { makeStyles } from '@material-ui/core/styles';
-import MenSlider from './MenSlider'
-
+import FormalSlider from './FormalSlider'
+import MoccasinsSlider from './FormalSlider'
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
@@ -25,11 +25,11 @@ export function Home() {
       <div className="home">
       <br /><br />
         <div className="center">
-          <div className="slider">
-          <MenSlider />
+          <div className="leftbox">
+          <FormalSlider />
           </div>
-          <div className="slider">
-          <MenSlider />
+          <div className="rightbox">
+          <MoccasinsSlider />
           </div>
         </div>
 

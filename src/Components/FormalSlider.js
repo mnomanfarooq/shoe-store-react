@@ -2,7 +2,7 @@ import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import { makeStyles } from "@material-ui/core";
-import mShoes from './data/men.json';
+import fShoes from './data/formal.json';
 import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-function MenSlider() {
+function FormalSlider() {
   const classes = useStyles();
   return (
 
@@ -28,8 +28,8 @@ function MenSlider() {
         >
 
 
-            {Object.keys(mShoes).map(keyName => {
-              const mShoe = mShoes[keyName];
+            {Object.keys(fShoes).map(keyName => {
+              const fShoe = fShoes[keyName];
               return (
                 // Set link over here
                 <Link key={keyName}
@@ -38,12 +38,12 @@ function MenSlider() {
                  
                   <div className="slider">
                      <img
-                      src={mShoe.simg}
-                      alt={mShoe.name}
+                      src={fShoe.simg}
+                      alt={fShoe.name}
                       className={classes.img}
                     />
 
-              <p className="legend">{mShoe.name} -  {mShoe.price} </p>
+              <p className="legend">{fShoe.name} -  {fShoe.price} </p>
                   </div>
 
                 </Link>)
@@ -57,4 +57,4 @@ function MenSlider() {
   );
 }
 
-export default MenSlider;
+export default FormalSlider;

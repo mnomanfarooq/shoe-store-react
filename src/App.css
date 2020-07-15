@@ -84,3 +84,15 @@ padding: 10px;
   align-content: center;
   position: sticky;
 }
+
+.leftbox {
+    float:left;  
+    width:500px; 
+    
+}
+
+.rightbox { 
+  float:right; 
+  width:500px; 
+
+} 
