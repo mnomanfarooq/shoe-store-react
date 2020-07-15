@@ -15,12 +15,12 @@ function RouteConfig() {
             <Router>
                 <Header />
                 
-                    <Route exact path="/" component={Home} />
-                    <Route exact path="/about" component={About} />
-                    <Route exact path="/product" component={Product} />
-                    <Route exact path="/product/:id" component={ProductItems} />
-                    <Route exact path="/formal" component={Formal} />
-                    <Route exact path="/formal/:id" component={FormalShoes} />
+                    <Route path="/" component={Home} />
+                    <Route path="/about" component={About} />
+                    <Route path="/product" component={Product} />
+                    <Route path="/product/:id" component={ProductItems} />
+                    <Route path="/formal" component={Formal} />
+                    <Route path="/formal/:id" component={FormalShoes} />
                     <Route path="*" component={() => <h2>Not Found</h2>} />
                 
                 <Footer />
