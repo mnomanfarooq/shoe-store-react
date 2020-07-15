@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(2),
     margin: 'auto',
     maxWidth: 800,
-  },  
+  },
   image: {
     width: 400,
     height: 400,
@@ -40,9 +40,9 @@ export default function MoccasinsShoes() {
   return (
     <div className="page-div">
       <br />
-      
+
       <h2>Moccasins Shoes - Product Details </h2>
-      
+
       <br />
       <div className={classes.root}>
         <Paper className={classes.paper}>
@@ -61,15 +61,15 @@ export default function MoccasinsShoes() {
 
             <Grid item xs={12} sm container>
 
-                <Grid item>
-                  <Typography variant="subtitle1" ><b>Availability:</b> {Shoe.avail}</Typography>
-                </Grid>
+              <Grid item>
+                <Typography variant="subtitle1" ><b>Availability:</b> {Shoe.avail}</Typography>
+              </Grid>
 
-                <Grid>
-                  <Typography variant="subtitle1" gutterBottom>
-                    <b>Product details:</b> {Shoe.details}
-                  </Typography>
-                </Grid>
+              <Grid>
+                <Typography variant="subtitle1" gutterBottom>
+                  <b>Product details:</b> {Shoe.details}
+                </Typography>
+              </Grid>
 
             </Grid>
 

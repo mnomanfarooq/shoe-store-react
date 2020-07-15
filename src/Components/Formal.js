@@ -3,32 +3,33 @@ import Shoes from './data/formal.json';
 import { Link } from 'react-router-dom';
 
 
-function Formal()  {
+function Formal() {
     return (
-        <div className="product">
+        <div >
             <h1> Formal Shoes Variety </h1>
             <div className="productContainer">
 
-                {Object.keys(Shoes).map(keyName=>{
+                {Object.keys(Shoes).map(keyName => {
                     const Shoe = Shoes[keyName];
-                    return ( 
-                    
-                    <Link key={keyName} 
-                    className="Link" 
-                    to={`/formal/${keyName}`}>
+                    return (
 
-                    <h4>{Shoe.name}</h4>
-                    <img src={Shoe.simg} height={150} alt={Shoe.name}/>
-                    </Link>)
+                        <Link key={keyName}
+                            className="Link"
+                            to={`/formal/${keyName}`}>
+
+                            <h4>{Shoe.name}</h4>
+                            <img src={Shoe.simg} height={150} alt={Shoe.name} />
+                        </Link>)
                 })
 
 
 
                 }
             </div>
-
+            <br />
+            <br />
         </div>
     )
 }
 
-export default  Formal;
+export default Formal;

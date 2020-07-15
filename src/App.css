@@ -6,11 +6,12 @@ body{
 .productContainer {
   display: flex;
   flex-wrap: wrap;
+  
 }
 .productContainer > .Link {
   color: darkblue;
   text-align: center;
-  width: 400px;
+  width: 390px;
   box-shadow: 0 0 10px grey;
   margin: 10px;
   padding: 5px;
@@ -96,3 +97,9 @@ padding: 10px;
   width:500px; 
 
 } 
+
+.img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}

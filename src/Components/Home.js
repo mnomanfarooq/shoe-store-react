@@ -2,7 +2,7 @@ import React from 'react';
 import './../App.css';
 import { makeStyles } from '@material-ui/core/styles';
 import FormalSlider from './FormalSlider'
-import MoccasinsSlider from './FormalSlider'
+import MoccasinsSlider from './MoccasinsSlider'
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
@@ -23,13 +23,13 @@ export function Home() {
     <div className={classes.root}>
       <div className="header"><h2>Welcome to Men Shoes Store</h2></div>
       <div className="home">
-      <br /><br />
+        <br /><br />
         <div className="center">
           <div className="leftbox">
-          <FormalSlider />
+            <FormalSlider />
           </div>
           <div className="rightbox">
-          <MoccasinsSlider />
+            <MoccasinsSlider />
           </div>
         </div>
 

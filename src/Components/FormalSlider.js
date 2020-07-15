@@ -17,10 +17,10 @@ function FormalSlider() {
   return (
 
     <div className='ulist'>
-       <ul >
+      <ul >
         <Carousel
           autoPlay
-          interval={2000}
+          interval={2500}
           infiniteLoop
           showThumbs={false}
           dynamicHeight={false}
@@ -28,27 +28,27 @@ function FormalSlider() {
         >
 
 
-            {Object.keys(fShoes).map(keyName => {
-              const fShoe = fShoes[keyName];
-              return (
-                // Set link over here
-                <Link key={keyName}
-                  className="Link"
-                  to={`/formal/${keyName}`}>
-                 
-                  <div className="slider">
-                     <img
-                      src={fShoe.simg}
-                      alt={fShoe.name}
-                      className={classes.img}
-                    />
+          {Object.keys(fShoes).map(keyName => {
+            const fShoe = fShoes[keyName];
+            return (
+              // Set link over here
+              <Link key={keyName}
+                className="Link"
+                to={`/formal/${keyName}`}>
 
-              <p className="legend">{fShoe.name} -  {fShoe.price} </p>
-                  </div>
+                <div className="slider">
+                  <img
+                    src={fShoe.simg}
+                    alt={fShoe.name}
+                    className={classes.img}
+                  />
 
-                </Link>)
-            })
-            }
+                  <p className="legend">{fShoe.name} -  {fShoe.price} </p>
+                </div>
+
+              </Link>)
+          })
+          }
 
 
         </Carousel>

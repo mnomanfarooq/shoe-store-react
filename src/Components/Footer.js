@@ -5,14 +5,13 @@ import './../App.css';
 
 
 
-function Footer()  {
+function Footer() {
 
     return (
         <div className="footer">
-
             Shoes Store by M. Noman Farooq
         </div>
     );
 }
 
-export default  Footer;
+export default Footer;

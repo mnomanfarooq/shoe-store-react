@@ -17,10 +17,10 @@ function MoccasinsSlider() {
   return (
 
     <div className='ulist'>
-       <ul >
+      <ul >
         <Carousel
           autoPlay
-          interval={2000}
+          interval={2500}
           infiniteLoop
           showThumbs={false}
           dynamicHeight={false}
@@ -28,27 +28,27 @@ function MoccasinsSlider() {
         >
 
 
-            {Object.keys(mShoes).map(keyName => {
-              const mShoe = mShoes[keyName];
-              return (
-                // Set link over here
-                <Link key={keyName}
-                  className="Link"
-                  to={`/moccasins/${keyName}`}>
-                 
-                  <div className="slider">
-                     <img
-                      src={mShoe.simg}
-                      alt={mShoe.name}
-                      className={classes.img}
-                    />
+          {Object.keys(mShoes).map(keyName => {
+            const mShoe = mShoes[keyName];
+            return (
+              // Set link over here
+              <Link key={keyName}
+                className="Link"
+                to={`/moccasins/${keyName}`}>
 
-              <p className="legend">{mShoe.name} -  {mShoe.price} </p>
-                  </div>
+                <div className="slider">
+                  <img
+                    src={mShoe.simg}
+                    alt={mShoe.name}
+                    className={classes.img}
+                  />
 
-                </Link>)
-            })
-            }
+                  <p className="legend">{mShoe.name} -  {mShoe.price} </p>
+                </div>
+
+              </Link>)
+          })
+          }
 
 
         </Carousel>

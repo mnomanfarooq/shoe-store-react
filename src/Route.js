@@ -22,7 +22,7 @@ function RouteConfig() {
 
                 <Route path="/formal" element={<Formal />} />
                 <Route path="/formal/:id" element={<FormalShoes />} />
-                
+
                 <Route path="/moccasins" element={<Moccasins />} />
                 <Route path="/moccasins/:id" element={<MoccasinsShoes />} />
 
