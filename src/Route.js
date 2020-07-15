@@ -15,13 +15,13 @@ function RouteConfig() {
             <Router>
                 <Header />
                 
-                    <Route path="/" component={Home} />
-                    <Route path="/about" component={About} />
-                    <Route path="/product" component={Product} />
-                    <Route path="/product/:id" component={ProductItems} />
-                    <Route path="/formal" component={Formal} />
-                    <Route path="/formal/:id" component={FormalShoes} />
-                    <Route path="*" component={() => <h2>Not Found</h2>} />
+                    <Route path="/" element={Home} />
+                    <Route path="/about" element={About} />
+                    <Route path="/product" element={Product} />
+                    <Route path="/product/:id" element={ProductItems} />
+                    <Route path="/formal" element={Formal} />
+                    <Route path="/formal/:id" element={FormalShoes} />
+                    <Route path="*" element={() => <h2>Not Found</h2>} />
                 
                 <Footer />
             </Router>
