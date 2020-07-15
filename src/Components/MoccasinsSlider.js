@@ -2,7 +2,7 @@ import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import { makeStyles } from "@material-ui/core";
-import mShoes from './data/moccasins.json';
+//import mShoes from './data/moccasins.json';
 import { Link } from 'react-router-dom';
 import Leed from './images/leedsnpm.jpg';
 import Naval from './images/navalsnpm';
