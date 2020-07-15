@@ -5,7 +5,7 @@ import { makeStyles } from "@material-ui/core";
 //import mShoes from './data/moccasins.json';
 import { Link } from 'react-router-dom';
 import Leed from './images/leedsnpm.jpg';
-import Naval from './images/navalsnpm';
+import Naval from './images/navalsnpm.jpg';
 import Croze from './images/croze.jpg';
 
 const useStyles = makeStyles((theme) => ({
