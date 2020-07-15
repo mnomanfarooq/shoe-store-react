@@ -1,0 +1,67 @@
+{
+    "beck": {
+      "name": "BECK",
+      "price": "Rs. 9,995",
+      "avail": "Available in stock",
+      "simg":
+        "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/Beck-Black_grande.jpg",
+      "details": "Feel the difference in comfort with our uniquely designed Technology which provides streamlined extra supportive cushioning in the foot-beds, where you need it the most, to let you be comfortable yet trendy.",
+      "fimg":
+      "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/Beck-Black_800x800.jpg"  
+    },
+
+    "jordan-rk-50": {
+      "name": "JORDAN RK 50",
+      "price": "Rs. 4,995",
+      "avail": "Available in stock",
+      "simg":
+        "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/Jordan_RK50-BLACK_1_grande.jpg",
+      "details": "Feel the difference in comfort with our uniquely designed Technology which provides streamlined extra supportive cushioning in the foot-beds, where you need it the most, to let you be comfortable yet trendy.",
+      "fimg":
+      "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/Jordan_RK50-BLACK_1_800x800.jpg"  
+    },
+
+    "bridgport-advice": {
+      "name": "BRIDGPORT ADVICE",
+      "price": "Rs. 5,495",
+      "avail": "Available in stock",
+      "simg":
+        "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/BRIDGPORT_ADVICE-BLACK_1_grande.jpg",
+      "details": "Feel the difference in comfort with our uniquely designed Technology which provides streamlined extra supportive cushioning in the foot-beds, where you need it the most, to let you be comfortable yet trendy.",
+      "fimg":
+      "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/BRIDGPORT_ADVICE-BLACK_1_800x800.jpg"  
+    },
+
+    "pixel": {
+      "name": "PIXEL",
+      "price": "Rs. 10,995",
+      "avail": "Out of Stock",
+      "simg":
+        "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/PIXEL-BLACK_grande.jpg",
+      "details": "Feel the difference in comfort with our uniquely designed Technology which provides streamlined extra supportive cushioning in the foot-beds, where you need it the most, to let you be comfortable yet trendy.",
+      "fimg":
+      "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/PIXEL-BLACK_800x800.jpg?v=1577420506"  
+    },
+
+    "fester": {
+      "name": "FESTER",
+      "price": "Rs. 10,995",
+      "avail": "Available in stock",
+      "simg":
+        "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/009100039-011-fester-Black_grande.jpg",
+      "details": "Feel the difference in comfort with our uniquely designed Deep Comfort® Technology which provides streamlined extra supportive cushioning in the foot-beds, where you need it the most, to let you be comfortable yet trendy.",
+      "fimg":
+      "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/009100039-011-fester-Black_800x800.jpg"  
+    },
+
+    "austin": {
+      "name": "AUSTIN",
+      "price": "Rs. 10,995",
+      "avail": "Out of Stock",
+      "simg":
+        "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/Austin-Black_grande.jpg",
+      "details": "Feel the difference in comfort with our uniquely designed Deep Comfort® Technology which provides streamlined extra supportive cushioning in the foot-beds, where you need it the most, to let you be comfortable yet trendy.",
+      "fimg":
+      "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/Austin-Black_800x800.jpg"  
+    }
+  }

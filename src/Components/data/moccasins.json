@@ -1,0 +1,61 @@
+{
+    "leed-snpm": {
+      "name": "LEED SNPM",
+      "price": "Rs. 4,995",
+      "simg":
+        "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/LeedSNPM-Black_grande.jpg",
+      "details": "Balance your move all day with shoes designed to provide you with comfort, flexibility and casual spirit. Our Casual shoes are specifically engineered with patent technologies to provide a balanced natural motion with every step you take.",
+      "fimg":
+      "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/LeedSNPM-Black_800x800.jpg"  
+    },
+
+    "naval-snpm": {
+      "name": "NAVAL SNPM",
+      "price": "Rs. 4,995",
+      "simg":
+        "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/NavalSNPM-Coffee_grande.jpg",
+      "details": "Balance your move all day with shoes designed to provide you with comfort, flexibility and casual spirit. Our Casual shoes are specifically engineered with patent technologies to provide a balanced natural motion with every step you take.",
+      "fimg":
+      "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/NavalSNPM-Coffee_800x800.jpg"  
+    },
+
+    "osmo-snpm": {
+      "name": "OSMO SNPM",
+      "price": "Rs. 5,495",
+      "simg":
+        "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/009100185-482-OSMOSNPM-BROWN_grande.jpg",
+      "details": "Balance your move all day with shoes designed to provide you with comfort, flexibility and casual spirit. Our Casual shoes are specifically engineered with patent technologies to provide a balanced natural motion with every step you take.",
+      "fimg":
+      "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/009100185-482-OSMOSNPM-BROWN_800x800.jpg"  
+    },
+
+    "zorro": {
+      "name": "ZORRO",
+      "price": "Rs. 4,995",
+      "simg":
+        "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/Zorro-Black_grande.jpg",
+      "details": "Balance your move all day with shoes designed to provide you with comfort, flexibility and casual spirit. Our Casual shoes are specifically engineered with patent technologies to provide a balanced natural motion with every step you take.",
+      "fimg":
+      "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/Zorro-Black_800x800.jpg"  
+    },
+
+    "skelf": {
+      "name": "SKELF",
+      "price": "Rs. 4,495",
+      "simg":
+        "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/Skelf-Tan_grande.jpg?v=1576827026",
+      "details": "Balance your move all day with shoes designed to provide you with comfort, flexibility and casual spirit. Our Casual shoes are specifically engineered with patent technologies to provide a balanced natural motion with every step you take.",
+      "fimg":
+      "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/Skelf-Tan_800x800.jpg?v=1576827026"  
+    },
+
+    "croze": {
+      "name": "CROZE",
+      "price": "Rs. 4,495",
+      "simg":
+        "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/Croze-Tan_grande.jpg",
+      "details": "Balance your move all day with shoes designed to provide you with comfort, flexibility and casual spirit. Our Casual shoes are specifically engineered with patent technologies to provide a balanced natural motion with every step you take.",
+      "fimg":
+      "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/Croze-Black_800x800.jpg"  
+    }
+  }
